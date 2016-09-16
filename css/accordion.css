@@ -1,0 +1,21 @@
+#Accordwrapper {
+	width: 186px;
+	height:212px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+ 
+.accordionButton {	
+	width: 186px;
+	float: left;
+/*	background: #003366;*/
+/*	border-bottom: 1px solid #FFFFFF;*/
+	cursor: pointer;
+	}
+ 
+.accordionContent {	
+	width: 186px;
+	float: left;
+	background: #95B1CE;
+	display: none;
+	}

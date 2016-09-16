@@ -1,0 +1,218 @@
+* { 
+	margin:0;
+ 	padding:0; 
+}
+body { 
+	background:#666666 url('../images/bg.jpg') repeat-x; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding-top:20px; 
+}
+#mainWrapper { 
+	width:969px; 
+	margin:10px auto 20px;
+/*	background-color:#0F6;*/ 
+}
+#headerWrapper { 
+	width:100%;
+	padding-bottom:10px;
+/*	background-color:#F63;*/
+}
+#headerWrapper .block1 { 
+	width:100%;
+	padding-bottom:0px;
+/*	background-color:#366;*/ 
+}
+#logo { 
+	width:45%; 
+	height:114px; 
+	float:left;  
+}
+#motto { 
+	position:absolute; 
+	margin: -30px 0 0 100px; 
+	font-size:16px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold; font-size:16px;
+}
+#top-menu { 
+	width:55%; 
+	height:50px; 
+	float:left; 
+	margin-top:50px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	
+/*	background-color:#C39; */
+}
+#topMenuWrapper{
+	margin-left:70px;
+}
+#bannerWrapper { 
+	width:100%; 
+	height:160px;
+}
+#ContentWrapper{
+	width:969px;
+	height:590px;
+/*	background-color:#F30;*/
+	padding-top:10px;
+}
+#SectionA{
+	width:480px;
+	height:100%;
+	padding-right:9px;
+/*	background-color:#6F3;*/
+	float:left;	
+}
+#SectionB{
+	width:480px;
+	height:100%;
+/*	background-color:#3FC;*/
+	float:left;	
+}
+.ContentBox1,.ContentBox2,.ContentBox3 ,.ContentBox4 {
+	padding-bottom:10px;
+
+}
+.ContentBox1 #Title{
+	background-color:#003366;
+	height:26px;
+	padding-top:10px;
+	padding-left:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;	
+	color:#FFFFFF;	
+}
+.ContentBox1 #Content{
+	background-color:#FFFFFF;
+	height:136px;
+	text-align:center;
+}
+.ContentBox1 #Content img{
+text-align:center;
+vertical-align:middle;
+	
+}
+.ContentBox2 #Title ,.ContentBox3 #Title{
+	background:#FEFEFE url('../images/t_bar.jpg') repeat-y;
+	height:23px; 
+	padding-left:10px;
+	padding-top:5px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-weight:bold;
+	border:#EFF9FF 2px solid;
+}
+
+.ContentBox2 #Content,.ContentBox3 #Content {
+	background:#EFF9FF url('../images/ContentBg.png') repeat-y;
+	font-size:12px;
+	padding:10px 20px;
+	text-align:justify;
+	line-height:20px;
+	height:360px;
+
+}
+
+
+
+.ContentBox7 th{
+	background:#FEFEFE url('../images/t_bar.jpg') repeat-y;
+	height:23px; 
+	padding-left:10px;
+	padding-top:5px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-weight:bold;
+	
+}
+
+.ContentBox7 td{
+	background:#EFF9FF url('../images/ContentBg.png') repeat-y;
+	font-size:12px;
+	padding-left:10px;
+	text-align:justify;
+	line-height:20px;
+	vertical-align:top;
+
+}
+
+.ContentBox4 #TitleImg1{
+	background-color:#003366;
+	height:45px;
+	padding-top:-1px;
+	padding-left:10px;
+	color:#FFFFFF;	
+	padding-left:10px;
+	float:left;
+}
+.ContentBox4 #Title{
+	background-color:#003366;
+	height:35px;
+	width:91%;
+	padding-top:10px;
+	padding-left:2px;
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-weight:bold;		
+}
+.ContentBox4 #Content{
+	background-color:#000000;
+	height:375px;
+}
+.ContentBox5 #Title{
+	background-color:#003366;
+	height:26px;
+	padding-top:10px;
+	padding-left:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.ContentBox5 #Content{
+	background-color:#FFFFFF;
+	height:173px;
+}
+
+.clear{
+clear:both;
+}
+
+.clear2{
+clear:left;
+}
+
+.more{
+float:right;
+}
+
+#breadcrumbWrapper { 
+	width:100%; 
+	height:44px; 
+	background:#fff url('../images/breadcrumb.jpg') repeat-x; 
+}
+#breadcrumbWrapper .breadcrumb { 
+	padding:10px 20px; 
+	font-family:'Verdana'; 
+	font-size:13px;
+}
+#breadcrumbWrapper .breadcrumb a { 
+	padding:3px; 
+	text-decoration:none; 
+	color:#000; 
+}
+#breadcrumbWrapper .breadcrumb a.highlighted { 
+	color:#1199cc; 
+}
+
+#footer { width:100%; height:77px;  background:#00529b url('../images/footer-bg.jpg') repeat-x;
+          font-family: Verdana; font-size:9px; color:#bbb; margin-top:10px;}
+
+#footer .menu { padding-top:1px ; padding-left:10px; padding-bottom:5px;  }
+#footer a { text-decoration:none; color:#bbb; }
+#footer a:hover { text-decoration:underline; }
+
+.space{
+height:15px;
+}

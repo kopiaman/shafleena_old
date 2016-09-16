@@ -1,0 +1,17 @@
+/*simple text*/
+.slider2 {  width:277px; margin:0; padding:0; height:154px;}
+
+
+#slider2 { margin:0 auto; padding:0; list-style:none;}
+#slider2 ul,
+#slider2 li { margin:0; padding:0; list-style:none; height:117px; }
+#slider2 li { width:227px; overflow:hidden; padding:0; margin:0 auto; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:15px; height:13px; position:absolute;
+    left:181px; top:-20px;}
+#nextBtn { left:199px; }
+#prevBtn a { display:block; width:40px; height:100px; background:url(../../images/icons/shaf2_03_03.jpg) no-repeat 0 0; }
+#nextBtn a { display:block; width:40px; height:100px; background:url(../../images/icons/shaf2_03_05.jpg) no-repeat 0 0; }
+#prevBtn a:hover {background:url(../images/icons/shaf2_03_03.jpg) no-repeat 0 0;}
+#nextBtn a:hover {background:url(../images/icons/shaf2_03_05.jpg) no-repeat 0px 0;}
